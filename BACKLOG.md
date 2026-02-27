@@ -19,8 +19,8 @@ This backlog is aligned to:
 | W-002 | DONE | Create data and event contract spec | W-001 | `SPEC_DATA_AND_EVENT_CONTRACTS.md` exists with API/events/entities/invariants |
 | W-003 | DONE | Create standalone recommendation doc | W-001 | `RECOMMENDED_ARCHITECTURE.md` exists and explains recommended design |
 | W-004 | DONE | Initialize repo structure (`common`, `services`, `tests`, `docs`) | W-001 | Directory structure committed and consistent with specs |
-| W-005 | TODO | Add project tooling (`pyproject`, lint, format, test config) | W-004 | `ruff`/`pytest` run locally without errors |
-| W-006 | TODO | Add local runtime stack (`docker-compose`) for queue + DB + cache | W-004 | Services start with one command and pass health checks |
+| W-005 | DONE | Add project tooling (`pyproject`, lint, format, test config) | W-004 | `ruff`/`pytest` run locally without errors |
+| W-006 | IN PROGRESS | Add local runtime stack (`docker-compose`) for queue + DB + cache | W-004 | Services start with one command and pass health checks |
 | W-007 | TODO | Implement shared config loader and environment validation | W-005 | App fails fast on missing critical env vars |
 | W-008 | TODO | Implement shared event/type definitions | W-005 | Event payloads match spec and are importable by all services |
 | W-009 | TODO | Implement URL canonicalizer module | W-008 | Canonicalization rules in spec are covered by unit tests |
