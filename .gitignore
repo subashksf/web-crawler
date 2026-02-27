@@ -1,0 +1,196 @@
+# -----------------------------
+# OS-generated files
+# -----------------------------
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.Spotlight-V100
+.Trashes
+._*
+
+# -----------------------------
+# Editor / IDE
+# -----------------------------
+.idea/
+.vscode/
+*.code-workspace
+*.iml
+*.suo
+*.user
+*.userossc
+*.rsuser
+*.sln.docstates
+*.swp
+*.swo
+*~
+
+# -----------------------------
+# Python bytecode / caches
+# -----------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# -----------------------------
+# Python virtual environments
+# -----------------------------
+.venv/
+venv/
+env/
+ENV/
+.python-version
+__pypackages__/
+
+# -----------------------------
+# Python packaging / build artifacts
+# -----------------------------
+build/
+dist/
+site/
+.eggs/
+*.egg
+*.egg-info/
+pip-wheel-metadata/
+wheels/
+
+# -----------------------------
+# Test / coverage artifacts
+# -----------------------------
+.pytest_cache/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+nosetests.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# -----------------------------
+# Type checker / linter / test env caches
+# -----------------------------
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.ruff_cache/
+.pyre/
+.pytype/
+.tox/
+.nox/
+
+# -----------------------------
+# Notebook artifacts
+# -----------------------------
+.ipynb_checkpoints/
+
+# -----------------------------
+# Logs / runtime files
+# -----------------------------
+*.log
+logs/
+*.pid
+*.pid.lock
+*.seed
+*.out
+*.err
+*.stackdump
+
+# -----------------------------
+# Environment / secrets
+# -----------------------------
+.env
+.env.*
+!.env.example
+!.env.*.example
+.envrc
+.direnv/
+
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+
+# -----------------------------
+# Local databases / binary artifacts
+# -----------------------------
+*.db
+*.sqlite
+*.sqlite3
+*.rdb
+*.mdb
+*.parquet
+*.feather
+*.orc
+*.arrow
+*.h5
+*.hdf5
+
+# -----------------------------
+# Archives
+# -----------------------------
+*.7z
+*.bz2
+*.gz
+*.rar
+*.tar
+*.tgz
+*.xz
+*.zip
+*.zst
+
+# -----------------------------
+# Container / local infra overrides
+# -----------------------------
+docker-compose.override.yml
+*.local.yml
+docker-data/
+volumes/
+
+# -----------------------------
+# Optional JS/TS tooling (future-proof)
+# -----------------------------
+node_modules/
+.npm/
+.pnpm-store/
+.yarn/
+.yarn/cache/
+.yarn/unplugged/
+.yarn/build-state.yml
+.yarn/install-state.gz
+.parcel-cache/
+.next/
+.nuxt/
+.svelte-kit/
+*.tsbuildinfo
+vite.svg
+
+# -----------------------------
+# Optional IaC tooling
+# -----------------------------
+.terraform/
+*.tfstate
+*.tfstate.*
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+crash.log
+
+# -----------------------------
+# Project-local generated data
+# -----------------------------
+tmp/
+cache/
+data/
+storage/snapshots/*
+storage/redis/*.rdb
+
+# Keep tracked placeholders
+!**/.gitkeep
